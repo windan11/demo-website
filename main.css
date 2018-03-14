@@ -92,7 +92,6 @@ body{
 	color: #222;
 	margin: 0 5%;
 }
-/*div class container thus using .container; changes the font of h1 and nav links*/
 .container{
 	position: relative;
 	margin: 0 auto;
@@ -114,17 +113,16 @@ body{
 	text-transform: uppercase;
 	font-size: 1.2em;
 }
-/*move nav links to the RHS*/
+/*navigation -----------------*/
 #nav{
 	position: absolute;
 	right: 10%;
 	top: 0px;
 	height: 60px;
 }
-/*move nav links in horizontal*/
 #nav ul li{
 	float: left;
-	list-style: none; /*remove bullet style*/
+	list-style: none;
 }
 #nav ul li a{
 	display: block;
@@ -149,7 +147,7 @@ a:hover{
 	color: white; 
 }
 .hero-image{
-	background: url("../assets/ales-krivec.jpg") no-repeat;
+	background: url("..ales-krivec.jpg") no-repeat;
 	background-size: cover;
 	background-position: 50% 50%;
 	position: absolute;
@@ -158,7 +156,7 @@ a:hover{
 }
 .hero-image:after{
 	content: '';
-	opacity: .65; /*layer alpha */
+	opacity: .65;
 	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEwMCAxMDAiIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0iaGF0MCIgZ3JhZGllbnRVbml0cz0ib2JqZWN0Qm91bmRpbmdCb3giIHgxPSIxMDAlIiB5MT0iNTAlIiB4Mj0iLTEuNDIxMDg1NDcxNTIwMmUtMTQlIiB5Mj0iNTAlIj4KPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2JiNDI0MiIgc3RvcC1vcGFjaXR5PSIxIi8+CjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2VmYWI0YSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgIDwvbGluZWFyR3JhZGllbnQ+Cgo8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgZmlsbD0idXJsKCNoYXQwKSIgLz4KPC9zdmc+); /*gradient overlay*/
 	background-image: -moz-linear-gradient (right, #bb4242 0%, #efab4a 100%); /*gradient overlay*/
 	background-image: -o-linear-gradient(right, #bb4242 0%, #efab4a 100%);
@@ -213,7 +211,7 @@ a:hover{
 	-o-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 }
-/* intro --blah blah */
+/* intro ------------------------------- */
 .columns{
 	margin: 10em auto;
 	min-height: 350px;
@@ -242,7 +240,7 @@ a:hover{
 	font-size: 32px;
 	text-transform: uppercase;
 }
-/*leaf items of portfolio section-----------------------------*/
+/*leaf items-----------------------*/
 #portfolio{
 	text-align: center;
 }
@@ -260,7 +258,7 @@ a:hover{
 	height: 100%;
 	display: block;
 }
-/*leaf details*/
+/*leaf details--------------------*/
 .leaf-detail{
 	position: absolute;
 	top: 0; bottom: 0; left: 0; right: 0;
@@ -334,7 +332,7 @@ a:hover{
 	padding-top: 10px;
 	text-decoration: none;
 }
-/*social media icon*/
+/*social media icon---------------*/
 .social-icon{
 	float: right;
 	width: 400px;
